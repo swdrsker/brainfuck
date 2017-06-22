@@ -1,0 +1,89 @@
+<html>
+  <header>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/brainfuck.js"></script>
+  </header>
+  <title>
+    死ねクソプログラミング言語
+  </title>
+  <body style="margin: 10px; padding: 0;">
+    <h1 class="text-center">死ねクソプログラミング言語</h1>
+    <div class="row">
+      <div class ="col-md-7">
+        <h3>死ねクソプログラミング言語とは</h3>
+          Brainfuckを真似たネタ言語。
+          ノリと勢いだけで作ってしまった。
+          </br>
+          参考：<a href="https://ja.wikipedia.org/wiki/Brainfuck" target="new">Wikipedia - Brainfuck</a>
+        <h3>仕様</h3>
+      <table class="table table-bordered table-hover">
+      <tr style="background-color:#eeeeee;">
+        <th>命令</th>
+        <th>BF</th>
+        <th>説明</th>
+      </tr>
+      <tr align="center">
+        <td>バカ</td>
+        <td>&gt;</td>
+        <td align="left">ポインタを1つ進める。</td>
+      </tr>
+      <tr align="center">
+        <td>ボケ</td>
+        <td>&lt;</td>
+        <td align="left">ポインタを1つ戻す。</td>
+      </tr>
+      <tr align="center">
+        <td>死ね</td>
+        <td>+</td>
+        <td align="left">ポインタが指す値を1増やす。</td>
+      </tr>
+      <tr align="center">
+        <td>殺す</td>
+        <td>-</td>
+        <td align="left">ポインタが指す値を1減らす。</td>
+      </tr>
+      <tr align="center">
+        <td>カス</td>
+        <td>.</td>
+        <td align="left">ポインタが指す値を文字コードとして1文字出力する。
+        </td>
+      </tr>
+      <tr align="center">
+        <td>ゴミ</td>
+        <td>,</td>
+        <td align="left">1バイトを入力し、ポインタが指す位置に代入する。</td>
+      </tr>
+      <tr align="center">
+        <td>クズ</td>
+        <td>[</td>
+        <td align="left">ポインタが指す値が0の場合、対応するクソにジャンプする。</td>
+      </tr>
+      <tr align="center">
+        <td>クソ</td>
+        <td>]</td>
+        <td align="left">ポインタが指す値が0ではない場合、対応するクズにジャンプする。</td>
+      </tr>
+    </table>
+    <h3>Hello, World!</h3>
+      <textarea class="form-control" rows="6" style="font-size:80%">死ね死ね死ね死ね死ね死ね死ね死ね死ねクズバカ死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ねボケボケボケ殺すクソバカカスバカ死ね死ねカス死ね死ね死ね死ね死ね死ね死ねカスカス死ね死ね死ねカスバカ殺すカス殺す殺す殺す殺す殺す殺す殺す殺す殺す殺す殺す殺すカスボケ死ね死ね死ね死ね死ね死ね死ね死ねカス殺す殺す殺す殺す殺す殺す殺す殺すカス死ね死ね死ねカス殺す殺す殺す殺す殺す殺すカス殺す殺す殺す殺す殺す殺す殺す殺すカスバカ死ねカス</textarea>
+      <hr>
+      </div>
+      <div class="col-md-5 ">
+        <textarea id="input" class="form-control" rows="24" cols="70" style="font-size:80%">死ね死ね死ね死ね死ね死ね死ね死ねクズバカ死ねバカ死ね死ねバカ死ね死ね死ねバカ死ね死ね死ね死ねバカ死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねバカ死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ね死ねボケボケボケボケボケボケボケボケボケボケボケボケボケボケボケボケ殺すクソバカバカバカバカバカバカバカバカバカ死ねカス殺すボケボケボケボケボケボケボケボケボケバカバカバカバカカスボケボケボケボケバカバカバカバカバカバカバカバカバカバカバカバカバカバカ殺す殺す殺す殺すカス死ね死ね死ね死ねボケボケボケボケボケボケボケボケボケボケボケボケボケボケバカバカバカバカバカバカバカバカバカバカバカバカバカバカ殺すカス死ねボケボケボケボケボケボケボケボケボケボケボケボケボケボケバカバカバカバカバカバカバカバカバカバカバカバカバカバカバカ殺す殺すカス死ね死ねボケボケボケボケボケボケボケボケボケボケボケボケボケボケボケバカバカバカバカバカバカバカバカバカバカバカバカバカ殺す殺す殺すカス死ね死ね死ねボケボケボケボケボケボケボケボケボケボケボケボケボケバカバカバカバカカスボケボケボケボケバカバカバカバカバカバカバカバカバカバカバカバカバカバカバカ死ねカス殺すボケボケボケボケボケボケボケボケボケボケボケボケボケボケボケバカバカバカバカバカバカバカバカバカバカバカバカバカバカ殺すカス死ねボケボケボケボケボケボケボケボケボケボケボケボケボケボケバカバカバカバカバカバカバカバカバカバカバカバカバカバカバカ殺す殺す殺すカス</textarea>
+        <br />
+        <button id="exec" class="btn btn-info btn-sm">実行</button>
+        <br />
+        <textarea id="output" class="form-control" rows="3" cols="70" style="font-size:200%"></textarea>
+        <hr>
+        誰でも実行できるように、javascriptでインタプリタを書きました。
+        <br>
+        <a href="http://techblog.kayac.com/js-brainfuck.html" target="new">こちらのサイト</a>を参考にしました。@handlename様ありがとうございました！
+        <div style="margin: 10px">
+          作者ブログ→<a href="http://swdrsker.hatenablog.com/" target="new">技術メモ</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
